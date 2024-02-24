@@ -1,0 +1,80 @@
+/*Основа сайта:*/
+
+html{
+    background-image: url("../img/back_img.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+
+    background-size: 100%;
+}
+
+#infoMenu{
+    margin-left: 20%;
+    margin-right: 20%;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+#infoMenu a{
+    font-size: 20px;
+}
+
+.linkInfo{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: lightblue;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#bottomMenu{
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 1em;
+    text-shadow: yellow 1px 1px;
+}
+
+/*Основа тела сайта:*/
+
+#main{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: lightgray;
+    border-radius: 25px 25px 25px 25px;
+    border: 10px solid gray;
+}
+
+#main h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+#main .infoText{
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+/*Весь сайт:*/
+
+.back{
+    width: 20%;
+    text-align: center;
+    background-color: darkgrey;
+    border: 2px solid black;
+    border-radius: 5px 5px 5px 5px;
+    
+    margin: 0 40% 5vh 40%
+}
+.back a{
+    text-decoration: none;
+}
+
+#main img{
+    width: 20%;
+    height: 20%;
+    margin: 20px 20px 20px 20px;
+}

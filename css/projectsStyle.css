@@ -1,0 +1,76 @@
+/*Основные панельки*/
+
+html{
+    background-image: url("../img/back_img.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+
+    background-size: 100%;
+}
+
+#infoMenu{
+    margin-left: 20%;
+    margin-right: 20%;
+
+    display: flex;
+    justify-content: center;
+
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+#infoMenu a{
+    font-size: 20px;
+}
+
+.linkInfo{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-color: lightblue;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#bottomMenu{
+    text-align: center;
+    margin-top: 2vh;
+    font-size: 1em;
+    text-shadow: yellow 1px 1px;
+}
+
+/*Основные возможные стили тела сайта:*/
+
+#main{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: lightgray;
+    border-radius: 25px 25px 25px 25px;
+    border: 10px solid gray;
+}
+
+#main h1{
+    font-size: 3em;
+    text-align: center;
+}
+
+/*<p class=infoText>*/
+#main .infoText{
+    text-align: left;
+    padding-left: 15px;
+    padding-top: 25px;
+}
+
+/*<h3 class="header>*/
+#main .header{
+    margin-left: 25px;
+}
+
+/*<section class="list">*/
+.list{
+    text-align: left;
+    font-size: 20px;
+}
+
+.list ol li a{
+    color:black;
+}
+
