@@ -21,6 +21,7 @@ html{
 }
 #infoMenu a{
     font-size: 20px;
+    text-align: center;
 }
 
 .linkInfo{
@@ -40,8 +41,8 @@ html{
 /*Основные возможные стили тела сайта:*/
 
 #main{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 15%;
+    margin-right: 15%;
     background-color: lightgray;
     border-radius: 25px 25px 25px 25px;
     border: 10px solid gray;
