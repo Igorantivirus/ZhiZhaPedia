@@ -28,11 +28,13 @@ html{
     margin-left: 5%;
     margin-right: 5%;
     background-color: lightblue;
+    border: 5px solid lightblue;
     border-radius: 10px 10px 10px 10px;
 }
 
 #bottomMenu{
     text-align: center;
+    justify-content: center;
     margin-top: 2vh;
     font-size: 1em;
     text-shadow: yellow 1px 1px;
@@ -46,6 +48,7 @@ html{
     background-color: lightgray;
     border-radius: 25px 25px 25px 25px;
     border: 10px solid gray;
+    overflow: hidden;
 }
 
 #main h1{
@@ -61,17 +64,13 @@ html{
 
 /*Весь сайт:*/
 
-.back{
-    width: 20%;
-    text-align: center;
+.back a{
+    text-decoration: none;
     background-color: darkgrey;
     border: 2px solid black;
     border-radius: 5px 5px 5px 5px;
-    
-    margin: 0 40% 5vh 40%
-}
-.back a{
-    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 #main img{

@@ -26,6 +26,7 @@ html{
     margin-left: 5%;
     margin-right: 5%;
     background-color: lightblue;
+    border: 5px solid lightblue;
     border-radius: 10px 10px 10px 10px;
 }
 
@@ -65,6 +66,9 @@ html{
     font-size: 20px;
 }
 
+.list ol li{
+    margin-left: 15px;
+}
 
 .list ol li a{
     color:black;
